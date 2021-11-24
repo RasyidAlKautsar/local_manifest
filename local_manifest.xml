@@ -7,15 +7,9 @@
   <remote name="shashank1436"
           fetch="https://github.com/shashank1436" />
 
-  <remote name="kdrag0n"
-          fetch="https://github.com/kdrag0n" />
-
   <!-- Trees -->
         <project path="device/xiaomi/mido" name="device_xiaomi_mido-1" remote="ArkanMuhammad1986" revision="ssos" />
         <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="ArkanMuhammad1986" revision="patch-3" />
         <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="shashank1436" revision="r11" />
-
-  <!-- System Repo -->
-        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" />
 
 </manifest>
