@@ -7,15 +7,12 @@
   <remote name="shashank1436"
           fetch="https://github.com/shashank1436" />
 
-  <remote name="Redmi-note-4x"
-          fetch="https://github.com/Redmi-note-4x" />
-
   <remote name="LineageOS"
           fetch="https://github.com/LineageOS" />
 
   <!-- Trees -->
         <project path="device/xiaomi/mido" name="platform_device_xiaomi_mido" remote="ArkanMuhammad1986" revision="aex-12" />
-        <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="Redmi-note-4x" revision="aex-12" />
+        <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="ArkanMuhammad1986" revision="patch-1" />
         <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="shashank1436" revision="s12staging" />
 
   <!-- System Repo -->
