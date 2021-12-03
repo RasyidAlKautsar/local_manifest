@@ -11,7 +11,7 @@
           fetch="https://github.com/LineageOS" />
 
   <!-- Trees -->
-        <project path="device/xiaomi/mido" name="platform_device_xiaomi_mido" remote="ArkanMuhammad1986" revision="aex-12" />
+        <project path="device/xiaomi/mido" name="xiaomi_mido" remote="ArkanMuhammad1986" revision="aex-12" />
         <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="Redmi-note-4x" revision="aex-12" />
         <project path="kernel/xiaomi/mido" name="android_kernel_xiaomi_mido" remote="ArkanMuhammad1986" revision="fluid-12" />
 
