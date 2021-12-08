@@ -1,21 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="ArkanMuhammad1986"
-          fetch="https://github.com/ArkanMuhammad1986" />
+  <remote name="I"
+          fetch="https://github.com/RasyidAlKautsar" />
 
   <remote name="Redmi-note-4x"
           fetch="https://github.com/Redmi-note-4x" />
 
-  <remote name="LineageOS"
-          fetch="https://github.com/LineageOS" />
-
   <!-- Trees -->
-        <project path="device/xiaomi/mido" name="xiaomi_mido" remote="ArkanMuhammad1986" revision="final" />
+        <project path="device/xiaomi/mido" name="RadaKuntul" remote="I" revision="Kuntull" />
         <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="Redmi-note-4x" revision="aex-12" />
-        <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="ArkanMuhammad1986" revision="patch-1" />
-
-  <!-- System Repo -->
-        <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="LineageOS" revision="lineage-18.1" />
+        <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="ArkanMuhammad1986" revision="patch-2" />
 
 </manifest>
