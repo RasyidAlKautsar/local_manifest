@@ -10,7 +10,7 @@
   <!-- Trees -->
         <project path="device/xiaomi/mido" name="RadaKuntul" remote="I" revision="Kuntull" />
         <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="Redmi-note-4x" revision="aex-12" />
-        <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="ArkanMuhammad1986" revision="patch-2" />
+        <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="I" revision="patch-1" />
 
   <!-- Qcom-caf -->
         <remove-project name="LineageOS/android_hardware_qcom_display" />
