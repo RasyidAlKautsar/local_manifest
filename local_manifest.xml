@@ -12,4 +12,12 @@
         <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="Redmi-note-4x" revision="aex-12" />
         <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="ArkanMuhammad1986" revision="patch-2" />
 
+  <!-- Qcom-caf -->
+        <remove-project name="LineageOS/android_hardware_qcom_display" />
+        <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom-caf_display" remote="Redmi-note-4x" revision="msm8996-10.6.2.r1" />
+        <remove-project name="LineageOS/android_hardware_qcom_audio" />
+        <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom-caf_audio" remote="Redmi-note-4x" revision="msm8996-s" />
+        <remove-project name="LineageOS/android_hardware_qcom_media" />
+        <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom-caf_media" remote="Redmi-note-4x" revision="msm8996-9.6.3.r1" />
+
 </manifest>
