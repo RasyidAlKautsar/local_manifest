@@ -10,6 +10,7 @@
   <!-- Trees -->
         <project path="device/xiaomi/mido" name="RadaKuntul" remote="I" revision="Kuntull-bak" />
         <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="Redmi-note-4x" revision="aex-12" />
+        <project path="vendor/xiaomi/MiuiCamera" name="vendor_xiaomi_MiuiCamera_mido" remote="I" revision="eleven" />
         <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="I" revision="patch-1" />
 
 </manifest>
