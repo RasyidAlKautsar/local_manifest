@@ -29,7 +29,4 @@
         <remove-project name="android_packages_apps_Updater" />
         <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="I" revision="12" />
 
-  <!-- Remove -->
-        <remove-project name="android_external_Camera" />
-
 </manifest>
