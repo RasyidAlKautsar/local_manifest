@@ -16,6 +16,11 @@
         <project path="vendor/xiaomi/MiuiCamera" name="vendor_xiaomi_MiuiCamera_mido" remote="I" revision="eleven" />
         <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="I" revision="patch-1" />
 
+  <!-- Remove-project -->
+        <remove-project name="LineageOS/android_hardware_qcom_audio" />
+        <remove-project name="LineageOS/android_hardware_qcom_display" />
+        <remove-project name="LineageOS/android_hardware_qcom_media" />
+
   <!-- HALs -->
         <remove-project name="android_hardware_qcom_wlan" />
         <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" remote="aex-tmp" revision="12.x" />
