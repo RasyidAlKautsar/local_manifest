@@ -14,7 +14,7 @@
         <project path="device/xiaomi/mido" name="RadaKuntul" remote="I" revision="Kuntull-bak-1" />
         <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="Redmi-note-4x" revision="aex-12" />
         <project path="vendor/xiaomi/MiuiCamera" name="vendor_xiaomi_MiuiCamera_mido" remote="I" revision="eleven" />
-        <project path="kernel/xiaomi/mido" name="kernel_xiaomi_msm8953-4.9" remote="I" revision="lineage-17.1" />
+        <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="I" revision="patch-1" />
 
   <!-- Remove-project -->
         <remove-project name="LineageOS/android_hardware_qcom_audio" />
