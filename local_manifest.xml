@@ -8,18 +8,16 @@
   <remote name="aex-tmp" fetch="https://github.com/aex-tmp" />
 
   <!-- Trees -->
-        <project path="device/xiaomi/mido" name="RadaKuntul" remote="I" revision="Kuntull-bak" />
+        <project path="device/xiaomi/mido" name="RadaKuntul" remote="I" revision="Kuntull" />
         <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="Redmi-note-4x" revision="aex-12" />
         <project path="vendor/xiaomi/MiuiCamera" name="vendor_xiaomi_MiuiCamera_mido" remote="I" revision="eleven" />
         <project path="kernel/xiaomi/mido" name="kernel_xiaomi_msm8953-4.9" remote="I" revision="lineage-17.1" />
+        <project path="device/bloatware" name="device_bloatware" remote="I" revision="patch-1" />
 
   <!-- Hals -->
         <remove-project name="LineageOS/android_hardware_qcom_audio" />
-        <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom-caf_audio" remote="Redmi-note-4x" revision="msm8996-s" />
         <remove-project name="LineageOS/android_hardware_qcom_display" />
-        <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom-caf_display" remote="Redmi-note-4x" revision="msm8996-10.6.2.r1" />
         <remove-project name="LineageOS/android_hardware_qcom_media" />
-        <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom-caf_media" remote="Redmi-note-4x" revision="msm8996-9.6.3.r1" />
 
   <!-- Wlan -->
         <remove-project name="android_hardware_qcom_wlan" />
