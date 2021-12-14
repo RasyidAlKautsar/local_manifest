@@ -7,6 +7,8 @@
 
   <remote name="aex-tmp" fetch="https://github.com/aex-tmp" />
 
+  <remote name="gitlab" revision="main" fetch="https://gitlab.com/AnggaR96s/" />
+
   <!-- Trees -->
         <project path="device/xiaomi/mido" name="RadaKuntul" remote="I" revision="Kuntull" />
         <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="Redmi-note-4x" revision="aex-12" />
@@ -33,6 +35,9 @@
   <!-- Vendor -->
         <remove-project name="android_vendor_awaken" />
         <project path="vendor/awaken" name="android_vendor_awaken" remote="I" revision="12" />
+
+  <!-- Clang -->
+        <project path="prebuilts/clang/host/linux-x86/clang-gengkapak" name="Clang-GengKapak" remote="gitlab" clone-depth="1" />
 
   <!-- Patch fw/b -->
         <remove-project name="android_frameworks_base" />
