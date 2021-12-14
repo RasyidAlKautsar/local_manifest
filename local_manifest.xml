@@ -30,6 +30,7 @@
         <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="I" revision="12" />
 
   <!-- System -->
+        <remove-project name="platform/system/bt" />
         <project path="system/bt" name="android_system_bt-1" remote="I" revision="lineage-19.0" />
 
   <!-- Vendor -->
