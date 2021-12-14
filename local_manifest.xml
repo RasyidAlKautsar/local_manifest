@@ -36,4 +36,8 @@
   <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-gengkapak" name="GengKapak-clang" remote="GengKapak" revision="14" />
 
+  <!-- Patch fw/b -->
+        <remove-project name="android_frameworks_base" />
+        <project path="frameworks/base" name="android_frameworks_base" remote="I" revision="12" />
+
 </manifest>
