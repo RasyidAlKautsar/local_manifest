@@ -31,4 +31,8 @@
         <remove-project name="android_vendor_awaken" />
         <project path="vendor/awaken" name="android_vendor_awaken" remote="I" revision="12" />
 
+  <!-- Patch fw/b -->
+        <remove-project name="android_frameworks_base" />
+        <project path="frameworks/base" name="android_frameworks_base" remote="I" revision="12" />
+
 </manifest>
