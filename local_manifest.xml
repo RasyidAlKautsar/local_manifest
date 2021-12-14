@@ -27,6 +27,9 @@
         <remove-project name="android_packages_apps_Updater" />
         <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="I" revision="12" />
 
+  <!-- System -->
+        <project path="system/bt" name="android_system_bt-1" remote="I" revision="lineage-19.0" />
+
   <!-- Vendor -->
         <remove-project name="android_vendor_awaken" />
         <project path="vendor/awaken" name="android_vendor_awaken" remote="I" revision="12" />
