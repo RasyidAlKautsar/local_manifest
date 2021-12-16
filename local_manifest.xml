@@ -14,7 +14,7 @@
         <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="Redmi-note-4x" revision="aex-12" />
         <project path="vendor/xiaomi/MiuiCamera" name="MiuiCamera" remote="I" revision="eleven" />
         <project path="kernel/xiaomi/mido" name="Asw" remote="I" revision="lineage-17.1" />
-        <project path="device/bloatware" name="Prebuilts" remote="I" revision="master" />
+        <project path="device/bloatware" name="Prebuilts" remote="I" revision="nad_s" />
 
   <!-- Hals -->
         <remove-project name="LineageOS/android_hardware_qcom_audio" />
