@@ -10,11 +10,11 @@
   <remote name="gengkapak" revision="main" fetch="https://gitlab.com/AnggaR96s/" />
 
   <!-- Trees -->
-        <project path="device/xiaomi/mido" name="RadaKuntul" remote="I" revision="Kuntull" />
+        <project path="device/xiaomi/mido" name="Kuntull" remote="I" revision="Kuntull-bak" />
         <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="Redmi-note-4x" revision="aex-12" />
-        <project path="vendor/xiaomi/MiuiCamera" name="vendor_xiaomi_MiuiCamera_mido" remote="I" revision="eleven" />
-        <project path="kernel/xiaomi/mido" name="kernel_xiaomi_msm8953-4.9" remote="I" revision="lineage-17.1" />
-        <project path="device/bloatware" name="device_bloatware" remote="I" revision="patch-1" />
+        <project path="vendor/xiaomi/MiuiCamera" name="MiuiCamera" remote="I" revision="eleven" />
+        <project path="kernel/xiaomi/mido" name="Asw" remote="I" revision="lineage-17.1" />
+        <project path="device/bloatware" name="Prebuilts" remote="I" revision="master" />
 
   <!-- Hals -->
         <remove-project name="LineageOS/android_hardware_qcom_audio" />
@@ -31,17 +31,9 @@
 
   <!-- System -->
         <remove-project name="platform/system/bt" />
-        <project path="system/bt" name="android_system_bt-1" remote="I" revision="lineage-19.0" />
-
-  <!-- Vendor -->
-        <remove-project name="android_vendor_awaken" />
-        <project path="vendor/awaken" name="android_vendor_awaken" remote="I" revision="12" />
+        <project path="system/bt" name="system_bt" remote="I" revision="lineage-19.0" />
 
   <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-gengkapak" name="Clang-GengKapak" remote="gengkapak" clone-depth="1" />
-
-  <!-- Patch fw/b -->
-        <remove-project name="android_frameworks_base" />
-        <project path="frameworks/base" name="android_frameworks_base" remote="I" revision="12" />
 
 </manifest>
