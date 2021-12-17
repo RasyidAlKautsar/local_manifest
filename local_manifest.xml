@@ -3,8 +3,6 @@
 
   <remote name="I" fetch="https://github.com/RasyidAlKautsar" />
 
-  <remote name="Redmi-note-4x" fetch="https://github.com/Redmi-note-4x" />
-
   <remote name="gengkapak" revision="main" fetch="https://gitlab.com/AnggaR96s/" />
 
   <!-- Trees -->
