@@ -25,10 +25,6 @@
         <remove-project name="android_hardware_qcom_wlan" />
         <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" remote="aex-tmp" revision="12.x" />
 
-  <!-- Additional -->
-        <remove-project name="android_packages_apps_Updater" />
-        <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="I" revision="12" />
-
   <!-- System -->
         <remove-project name="platform/system/bt" />
         <project path="system/bt" name="system_bt" remote="I" revision="A12" />
