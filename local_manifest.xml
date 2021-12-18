@@ -26,7 +26,7 @@
 
   <!-- System -->
         <remove-project name="platform/system/bt" />
-        <project path="system/bt" name="system_bt" remote="I" revision="A12" />
+        <project path="system/bt" name="android_system_bt" remote="I" revision="lineage-19.0" />
 
   <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-gengkapak" name="Clang-GengKapak" remote="gengkapak" clone-depth="1" />
