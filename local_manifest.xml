@@ -7,13 +7,13 @@
 
   <remote name="aex-tmp" fetch="https://github.com/aex-tmp" />
 
-  <remote name="gengkapak" revision="main" fetch="https://gitlab.com/AnggaR96s/" />
+  <remote name="shashank1436" fetch="https://github.com/shashank1436" />
 
   <!-- Trees -->
-        <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="I" revision="cherish-12" />
+        <project path="device/xiaomi/mido" name="device_mido" remote="I" revision="test" />
         <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="Redmi-note-4x" revision="aex-12" />
         <project path="vendor/xiaomi/MiuiCamera" name="MiuiCamera" remote="I" revision="eleven" />
-        <project path="kernel/xiaomi/mido" name="Kernel_xiaomi_mido_msm8953-4.9" remote="I" revision="lineage-17.1" />
+        <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="shashank1436" revision="s12staging" />
 
   <!-- Hals -->
         <remove-project name="LineageOS/android_hardware_qcom_audio" />
@@ -27,8 +27,5 @@
   <!-- System -->
         <remove-project name="platform/system/bt" />
         <project path="system/bt" name="android_system_bt" remote="I" revision="lineage-19.0" />
-
-  <!-- Clang -->
-        <project path="prebuilts/clang/host/linux-x86/clang-gengkapak" name="Clang-GengKapak" remote="gengkapak" clone-depth="1" />
 
 </manifest>
