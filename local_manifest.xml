@@ -6,7 +6,7 @@
   <remote name="shashank1436" fetch="https://github.com/shashank1436" />
 
   <!-- Trees -->
-        <project path="device/xiaomi/mido" name="device_mido" remote="I" revision="Kasumi-v1" />
+        <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="I" revision="kasumi-v1" />
         <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="I" revision="eleven" />
         <project path="vendor/xiaomi/MiuiCamera" name="MiuiCamera" remote="I" revision="eleven" />
         <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="shashank1436" revision="s12staging" />
