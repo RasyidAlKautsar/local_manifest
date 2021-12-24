@@ -3,20 +3,17 @@
 
   <remote name="I" fetch="https://github.com/RasyidAlKautsar" />
 
-  <remote name="gengkapak" revision="main" fetch="https://gitlab.com/AnggaR96s/" />
+  <remote name="shashank1436" fetch="https://github.com/shashank1436" />
 
   <!-- Trees -->
         <project path="device/xiaomi/mido" name="device_mido" remote="I" revision="Kasumi-v1" />
         <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="I" revision="eleven" />
         <project path="vendor/xiaomi/MiuiCamera" name="MiuiCamera" remote="I" revision="eleven" />
-        <project path="kernel/xiaomi/mido" name="Asw" remote="I" revision="lineage-17.1" />
+        <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="shashank1436" revision="s12staging" />
 
   <!-- HALs -->
         <remove-project name="LineageOS/android_hardware_qcom_audio" />
         <remove-project name="LineageOS/android_hardware_qcom_media" />
         <remove-project name="LineageOS/android_hardware_qcom_display" />
-
-  <!-- Clang -->
-        <project path="prebuilts/clang/host/linux-x86/clang-gengkapak" name="Clang-GengKapak" remote="gengkapak" clone-depth="1" />
 
 </manifest>
