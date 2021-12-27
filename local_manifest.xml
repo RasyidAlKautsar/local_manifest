@@ -5,8 +5,6 @@
 
   <remote name="shashank1436" fetch="https://github.com/shashank1436" />
 
-  <remote name="windowz414" fetch="https://github.com/windowz414" />
-
   <!-- Trees -->
         <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="I" revision="kasumi-v1" />
         <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="I" revision="eleven" />
@@ -17,8 +15,5 @@
         <remove-project name="LineageOS/android_hardware_qcom_audio" />
         <remove-project name="LineageOS/android_hardware_qcom_media" />
         <remove-project name="LineageOS/android_hardware_qcom_display" />
-
-  <!-- Additional -->
-        <project path="vendor/priv" name="kasumikeys" remote="windowz414" revision="master" />
 
 </manifest>
