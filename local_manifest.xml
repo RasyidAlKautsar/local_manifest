@@ -5,6 +5,8 @@
 
   <remote name="Kasumi-Devices" fetch="https://github.com/Kasumi-Devices" />
 
+  <remote name="windowz414" fetch="https://github.com/windowz414" />
+
   <remote name="shashank1436" fetch="https://github.com/shashank1436" />
 
   <!-- Trees -->
@@ -17,5 +19,8 @@
         <remove-project name="LineageOS/android_hardware_qcom_audio" />
         <remove-project name="LineageOS/android_hardware_qcom_media" />
         <remove-project name="LineageOS/android_hardware_qcom_display" />
+
+  <!-- Additional -->
+        <project path="vendor/priv" name="kasumikeys" remote="windowz414" revision="master" />
 
 </manifest>
