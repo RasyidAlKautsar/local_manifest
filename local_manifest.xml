@@ -7,8 +7,6 @@
 
   <remote name="shashank1436" fetch="https://github.com/shashank1436" />
 
-  <remote  name="private" fetch="ssh://git@github.com" />
-
   <!-- Trees -->
         <project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="Kasumi-Devices" revision="kasumi-v1" />
         <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="I" revision="eleven" />
@@ -21,6 +19,6 @@
         <remove-project name="LineageOS/android_hardware_qcom_display" />
 
   <!-- Additional -->
-        <project path="vendor/priv" name="windowz414/kasumikeys" revision="master" remote="private" />
+        <project path="vendor/priv" name="kasumikeys" revision="test" remote="I" />
 
 </manifest>
