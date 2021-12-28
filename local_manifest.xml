@@ -19,6 +19,6 @@
         <remove-project name="LineageOS/android_hardware_qcom_display" />
 
   <!-- Additional -->
-        <project path="vendor/priv" name="kasumikeys" remote="I" revision="master" />
+        <project path="vendor/priv" name="windowz414/kasumikeys" revision="master" remote="private" />
 
 </manifest>
