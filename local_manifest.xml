@@ -7,6 +7,8 @@
 
   <remote name="shashank1436" fetch="https://github.com/shashank1436" />
 
+  <remote  name="private" fetch="ssh://git@github.com" />
+
   <!-- Trees -->
         <project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="Kasumi-Devices" revision="kasumi-v1" />
         <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="I" revision="eleven" />
