@@ -7,14 +7,10 @@
 
   <remote name="aex-tmp" fetch="https://github.com/aex-tmp" />
 
-  <remote name="gengkapak" revision="main" fetch="https://gitlab.com/AnggaR96s/" />
-
   <!-- Trees -->
-        <project path="device/xiaomi/mido" name="Kuntull" remote="I" revision="Kuntull-bak" />
+        <project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="I" revision="Spark" />
         <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="Redmi-note-4x" revision="aex-12" />
-        <project path="vendor/xiaomi/MiuiCamera" name="MiuiCamera" remote="I" revision="eleven" />
-        <project path="kernel/xiaomi/mido" name="Asw" remote="I" revision="lineage-17.1" />
-        <project path="device/bloatware" name="Prebuilts" remote="I" revision="nad_s" />
+        <project path="kernel/xiaomi/mido" name="Asw" remote="I" revision="eleven" />
 
   <!-- Hals -->
         <remove-project name="LineageOS/android_hardware_qcom_audio" />
@@ -22,18 +18,11 @@
         <remove-project name="LineageOS/android_hardware_qcom_media" />
 
   <!-- Wlan -->
-        <remove-project name="android_hardware_qcom_wlan" />
-        <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" remote="aex-tmp" revision="12.x" />
-
-  <!-- Additional -->
-        <remove-project name="android_packages_apps_Updater" />
-        <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="I" revision="12" />
+        <remove-project name="hardware_qcom_wlan" />
+        <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" remote="I" revision="12.x" />
 
   <!-- System -->
         <remove-project name="platform/system/bt" />
-        <project path="system/bt" name="system_bt" remote="I" revision="A12" />
-
-  <!-- Clang -->
-        <project path="prebuilts/clang/host/linux-x86/clang-gengkapak" name="Clang-GengKapak" remote="gengkapak" clone-depth="1" />
+        <project path="system/bt" name="android_system_bt" remote="I" revision="lineage-19.0" />
 
 </manifest>
