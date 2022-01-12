@@ -2,18 +2,13 @@
 <manifest>
 
   <remote name="I" fetch="https://github.com/RasyidAlKautsar" />
-
   <remote name="Redmi-note-4x" fetch="https://github.com/Redmi-note-4x" />
-
   <remote name="aex-tmp" fetch="https://github.com/aex-tmp" />
 
-  <remote name="shashank1436" fetch="https://github.com/shashank1436" />
-
   <!-- Trees -->
-        <project path="device/xiaomi/mido" name="device_mido" remote="I" revision="test" />
+        <project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="I" revision="12" />
         <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="Redmi-note-4x" revision="aex-12" />
-        <project path="vendor/xiaomi/MiuiCamera" name="MiuiCamera" remote="I" revision="eleven" />
-        <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="shashank1436" revision="s12staging" />
+        <project path="kernel/xiaomi/mido" name="android_kernel_xiaomi_mido" remote="Redmi-note-4x" revision="fluid-12" />
 
   <!-- Hals -->
         <remove-project name="LineageOS/android_hardware_qcom_audio" />
