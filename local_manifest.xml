@@ -8,7 +8,7 @@
 
   <!-- Trees -->
         <project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="I" revision="12" />
-        <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="I" revision="aex-12" />
+        <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="Redmi-note-4x" revision="aex-12" />
         <project path="kernel/xiaomi/mido" name="android_kernel_xiaomi_mido" remote="Redmi-note-4x" revision="fluid-12" />
 
   <!-- Hals -->
