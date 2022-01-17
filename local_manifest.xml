@@ -9,7 +9,7 @@
 
   <remote name="Spark-Devices" fetch="https://github.com/Spark-Devices" />
 
-  <remote  name="lineage" fetch="https://github.com/LineageOS" />
+  <remote  name="linos" fetch="https://github.com/LineageOS" />
 
   <!-- Trees -->
         <project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="Spark-Devices" revision="spark" />
