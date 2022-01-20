@@ -17,7 +17,7 @@
         <remove-project name="android_hardware_qcom_media" />
 
   <!-- Wlan -->
-        <remove-project name="android_hardware_qcom_wlan" />
+        <remove-project name="android_hardware_qcom-caf_wlan" />
         <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" remote="aex-tmp" revision="12.x" />
 
   <!-- Addon -->
