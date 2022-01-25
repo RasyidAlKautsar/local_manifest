@@ -12,9 +12,9 @@
         <project path="kernel/xiaomi/mido" name="android_kernel_xiaomi_mido" remote="Redmi-note-4x" revision="fluid-12" />
 
   <!-- Hals -->
-        <remove-project name="LineageOS/android_hardware_qcom_audio" />
-        <remove-project name="LineageOS/android_hardware_qcom_display" />
-        <remove-project name="LineageOS/android_hardware_qcom_media" />
+        <remove-project name="hardware_qcom-caf_msm8996_audio" />
+        <remove-project name="hardware_qcom-caf_msm8996_display" />
+        <remove-project name="hardware_qcom-caf_msm8996_media" />
 
   <!-- Wlan -->
         <remove-project name="android_hardware_qcom_wlan" />
@@ -25,4 +25,6 @@
         <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="Linos" revision="lineage-18.1" />
         <remove-project name="android_system_bt" />
         <project path="system/bt" name="android_system_bt" remote="I" revision="twelve" />
+        <project path="external/tinyxml" name="external_tinyxml" remote="Redmi-note-4x" revision="11" />
+
 </manifest>
