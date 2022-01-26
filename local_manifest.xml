@@ -26,5 +26,7 @@
         <remove-project name="android_system_bt" />
         <project path="system/bt" name="android_system_bt" remote="I" revision="twelve" />
         <project path="external/tinyxml" name="tinyxml" remote="Redmi-note-4x" revision="11" />
+        <remove-project name="android_device_qcom_sepolicy" />
+        <project path="device/qcom/sepolicy-legacy-um" name="legacy-um" remote="I" revision="twelve" />
 
 </manifest>
