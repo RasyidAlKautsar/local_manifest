@@ -25,6 +25,6 @@
         <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="Linos" revision="lineage-18.1" />
         <remove-project name="android_system_bt" />
         <project path="system/bt" name="android_system_bt" remote="I" revision="twelve" />
-        <project path="external/tinyxml" name="external_tinyxml" remote="Redmi-note-4x" revision="11" />
+        <project path="external/tinyxml" name="tinyxml" remote="Redmi-note-4x" revision="11" />
 
 </manifest>
