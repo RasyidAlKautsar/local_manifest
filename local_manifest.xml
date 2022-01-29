@@ -3,8 +3,9 @@
 
   <remote name="I" fetch="https://github.com/RasyidAlKautsar" />
   <remote name="Redmi-note-4x" fetch="https://github.com/Redmi-note-4x" />
-  <remote name="aex-tmp" fetch="https://github.com/aex-tmp" />
+  <!--<remote name="aex-tmp" fetch="https://github.com/aex-tmp" />-->
   <remote name="Linos" fetch="https://github.com/LineageOS" />
+  <remote name="GhostMaster69-dev" fetch="https://github.com/GhostMaster69-dev" />
 
   <!-- Trees -->
         <project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="I" revision="twelve" />
@@ -18,7 +19,7 @@
 
   <!-- Wlan -->
         <remove-project name="android_hardware_qcom_wlan" />
-        <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" remote="aex-tmp" revision="12.x" />
+        <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="GhostMaster69-dev" revision="android-12.0-caf-4.9-S" />
 
   <!-- Addon -->
         <remove-project name="LineageOS/android_packages_resources_devicesettings" />
