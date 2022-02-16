@@ -3,15 +3,15 @@
 
   <remote name="I" fetch="https://github.com/RasyidAlKautsar" />
   <remote name="Redmi-note-4x" fetch="https://github.com/Redmi-note-4x" />
-  <!--<remote name="aex-tmp" fetch="https://github.com/aex-tmp" />-->
+  <remote name="Alone0316" fetch="https://github.com/Alone0316" />
   <remote name="Spark-Devices" fetch="https://github.com/Spark-Devices" />
   <remote  name="linos" fetch="https://github.com/LineageOS" />
   <remote name="GhostMaster69-dev" fetch="https://github.com/GhostMaster69-dev" />
 
   <!-- Trees -->
         <project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="Spark-Devices" revision="spark" />
-        <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="Redmi-note-4x" revision="aex-12" />
-        <project path="kernel/xiaomi/mido" name="android_kernel_xiaomi_mido" remote="I" revision="fluid-12" />
+        <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="Redmi-note-4x" revision="cr-12.0" />
+        <project path="kernel/xiaomi/mido" name="kernel_mido" remote="Alone0316" revision="normal" />
 
   <!-- Hals -->
         <remove-project name="android_hardware_qcom_audio" />
