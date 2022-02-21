@@ -9,7 +9,7 @@
 
   <!-- Trees -->
         <project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="I" revision="twelve" />
-        <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="Redmi-note-4x" revision="staging" />
+        <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="I" revision="staging" />
         <project path="kernel/xiaomi/mido" name="kernel_mido" remote="Alone0316" revision="normal" />
 
   <!-- Hals -->
