@@ -10,7 +10,7 @@
 
   <!-- Trees -->
         <project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="Spark-Devices" revision="spark" />
-        <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="Redmi-note-4x" revision="cr-12.0" />
+        <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="Redmi-note-4x" revision="staging" />
         <project path="kernel/xiaomi/mido" name="kernel_mido" remote="Alone0316" revision="normal" />
 
   <!-- Hals -->
@@ -24,7 +24,7 @@
 
   <!-- System -->
         <remove-project name="platform/system/bt" />
-        <project path="system/bt" name="android_system_bt" remote="I" revision="lineage-19.0" />
+        <project path="system/bt" name="android_system_bt" remote="I" revision="spark" />
         <remove-project name="android_packages_resources_devicesettings" />
         <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="linos" revision="lineage-18.1" />
 
