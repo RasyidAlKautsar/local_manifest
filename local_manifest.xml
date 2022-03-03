@@ -31,6 +31,6 @@
         <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="I" revision="spark" />
 
   <!-- Sepolicy -->
-        <project path="device/qcom/sepolicy-legacy-um" name="sepolicy" remote="I" revision="spark-1" />
+        <project path="device/qcom/sepolicy-legacy-um" name="sepolicy" remote="I" revision="spark" />
 
 </manifest>
