@@ -11,7 +11,7 @@
   <!-- Trees -->
         <project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="I" revision="twelve-vanilla" />
         <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="Rn4" revision="staging" />
-        <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="I" revision="s12" />
+        <project path="kernel/xiaomi/mido" name="multi_repo" remote="I" revision="normal" />
 
   <!-- Hals -->
         <remove-project name="hardware_qcom-caf_msm8996_audio" />
