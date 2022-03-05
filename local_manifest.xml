@@ -6,6 +6,7 @@
   <remote name="Alone0316" fetch="https://github.com/Alone0316" />
   <remote name="Linos" fetch="https://github.com/LineageOS" />
   <remote name="GhostMaster69-dev" fetch="https://github.com/GhostMaster69-dev" />
+  <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
 
   <!-- Trees -->
         <project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="I" revision="twelve-vanilla" />
@@ -29,5 +30,6 @@
         <project path="external/tinyxml" name="tinyxml" remote="Rn4" revision="11" />
         <remove-project name="android_device_qcom_sepolicy" />
         <project path="device/qcom/sepolicy-legacy-um" name="legacy-um" remote="I" revision="twelve" />
+        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" />
 
 </manifest>
