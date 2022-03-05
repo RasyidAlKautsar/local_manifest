@@ -8,7 +8,7 @@
   <remote name="GhostMaster69-dev" fetch="https://github.com/GhostMaster69-dev" />
 
   <!-- Trees -->
-        <project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="I" revision="twelve" />
+        <project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="I" revision="twelve-vanilla" />
         <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="Rn4" revision="staging" />
         <project path="kernel/xiaomi/mido" name="kernel_mido" remote="Alone0316" revision="normal" />
 
