@@ -7,6 +7,7 @@
   <remote name="Spark-Devices" fetch="https://github.com/Spark-Devices" />
   <remote  name="linos" fetch="https://github.com/LineageOS" />
   <remote name="GhostMaster69-dev" fetch="https://github.com/GhostMaster69-dev" />
+  <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
 
   <!-- Trees -->
         <project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="Spark-Devices" revision="spark" />
@@ -30,6 +31,7 @@
         <remove-project name="frameworks_opt_telephony" />
         <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="I" revision="spark" />
         <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="linos" revision="lineage-19.0" />
+        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" clone-depth="1" revision="master" />
 
   <!-- Sepolicy -->
         <project path="device/qcom/sepolicy-legacy-um" name="legacy-um" remote="I" revision="spark" />
