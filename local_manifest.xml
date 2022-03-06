@@ -34,6 +34,6 @@
         <remove-project name="android_vendor_cherish" />
         <project path="vendor/cherish" name="android_vendor_cherish" remote="I" revision="twelve" />
         <remove-project name="android_system_sepolicy" />
-        <project path="system/sepolicy" name="android_system_sepolicy" remote="I" revision="twelvel" />
+        <project path="system/sepolicy" name="android_system_sepolicy" remote="I" revision="twelve" />
 
 </manifest>
