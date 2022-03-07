@@ -7,7 +7,7 @@
   <remote name="Linos" fetch="https://github.com/LineageOS" />
   <remote name="GhostMaster69-dev" fetch="https://github.com/GhostMaster69-dev" />
   <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
-  <remote name="I-gitlab" fetch="https://gitlab.com/RasyidAlKautsar" />
+  <!--<remote name="I-gitlab" fetch="https://gitlab.com/RasyidAlKautsar" />-->
   <!-- Trees -->
         <project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="I" revision="twelve-vanilla" />
         <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="Rn4" revision="staging" />
@@ -37,7 +37,5 @@
         <project path="vendor/lawnchair" name="android_vendor_lawnchair" remote="I" revision="twelve" />-->
         <!--<remove-project name="android_vendor_cherish" />
         <project path="vendor/cherish" name="android_vendor_cherish" remote="I" revision="twelve" />-->
-        <remove-project name="android_vendor_gapps" />
-        <project path="vendor/gapps" name="android_vendor_gapps" remote="I-gitlab" revision="twelve" >
 
 </manifest>
