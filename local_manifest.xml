@@ -3,39 +3,28 @@
 
   <remote name="I" fetch="https://github.com/RasyidAlKautsar" />
   <remote name="Rn4" fetch="https://github.com/Redmi-note-4x" />
-  <!--<remote name="Alone0316" fetch="https://github.com/Alone0316" />-->
   <remote name="Linos" fetch="https://github.com/LineageOS" />
   <remote name="GhostMaster69-dev" fetch="https://github.com/GhostMaster69-dev" />
   <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
-  <!--<remote name="I-gitlab" fetch="https://gitlab.com/RasyidAlKautsar" />-->
+
   <!-- Trees -->
-        <project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="I" revision="twelve-vanilla" />
+        <project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="I" revision="pe-12" />
         <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="Rn4" revision="staging" />
         <project path="kernel/xiaomi/mido" name="kernel_mido" remote="I" revision="normal" />
-
-  <!-- Hals -->
-        <remove-project name="hardware_qcom-caf_msm8996_audio" />
-        <remove-project name="hardware_qcom-caf_msm8996_display" />
-        <remove-project name="hardware_qcom-caf_msm8996_media" />
 
   <!-- Wlan -->
         <remove-project name="android_hardware_qcom_wlan" />
         <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="GhostMaster69-dev" revision="android-12.0-caf-4.9-S" />
 
   <!-- Addon -->
-        <remove-project name="LineageOS/android_packages_resources_devicesettings" />
+        <remove-project name="packages_resources_devicesettings" />
         <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="Linos" revision="lineage-18.1" />
-        <remove-project name="android_system_bt" />
-        <project path="system/bt" name="android_system_bt" remote="I" revision="twelve" />
-        <project path="external/tinyxml" name="tinyxml" remote="Rn4" revision="11" />
-        <remove-project name="android_device_qcom_sepolicy" />
-        <project path="device/qcom/sepolicy-legacy-um" name="legacy-um" remote="I" revision="twelve" />
+        <remove-project name="system_bt" />
+        <project path="system/bt" name="system_bt" remote="I" revision="twelve" />
+        <remove-project name="device_qcom_sepolicy-legacy-um" />
+        <project path="device/qcom/sepolicy-legacy-um" name="legacy-um" remote="I" revision="pe-12" />
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" clone-depth="1" revision="master" />
-        <!--<remove-project name="android_system_sepolicy" />
-        <project path="system/sepolicy" name="android_system_sepolicy" remote="I" revision="twelve" />-->
-        <!--<remove-project name="android_vendor_lawnchair" />
-        <project path="vendor/lawnchair" name="android_vendor_lawnchair" remote="I" revision="twelve" />-->
-        <remove-project name="android_vendor_cherish" />
-        <project path="vendor/cherish" name="android_vendor_cherish" remote="I" revision="twelve" />
+        <remove-project name="system_sepolicy" />
+        <project path="system/sepolicy" name="system_sepolicy" remote="I" revision="twelve" />
 
 </manifest>
