@@ -33,8 +33,8 @@
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" clone-depth="1" revision="master" />
         <!--<remove-project name="android_system_sepolicy" />
         <project path="system/sepolicy" name="android_system_sepolicy" remote="I" revision="twelve" />-->
-        <remove-project name="android_vendor_lawnchair" />
-        <project path="vendor/lawnchair" name="android_vendor_lawnchair" remote="I" revision="twelve" />
+        <!--<remove-project name="android_vendor_lawnchair" />
+        <project path="vendor/lawnchair" name="android_vendor_lawnchair" remote="I" revision="twelve" />-->
         <!--<remove-project name="android_vendor_cherish" />
         <project path="vendor/cherish" name="android_vendor_cherish" remote="I" revision="twelve" />-->
 
