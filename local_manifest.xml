@@ -34,5 +34,7 @@
         <project path="vendor/cherish" name="android_vendor_cherish" remote="I" revision="twelve" />
         <remove-project name="platform/packages/apps/Dialer" />
         <project path="packages/apps/Dialer" name="android_packages_dialer" remote="I" revision="test" />
+        <remove-project name="platform/packages/apps/ManagedProvisioning" />
+        <project path="packages/apps/ManagedProvisioning" name="platform_packages_apps_ManagedProvisioning" remote="I" revision="twelve" />
 
 </manifest>
