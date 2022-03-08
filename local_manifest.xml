@@ -13,11 +13,6 @@
         <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="Rn4" revision="staging" />
         <project path="kernel/xiaomi/mido" name="kernel_mido" remote="I" revision="normal" />
 
-  <!-- Hals -->
-        <remove-project name="hardware_qcom-caf_msm8996_audio" />
-        <remove-project name="hardware_qcom-caf_msm8996_display" />
-        <remove-project name="hardware_qcom-caf_msm8996_media" />
-
   <!-- Wlan -->
         <remove-project name="android_hardware_qcom_wlan" />
         <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="GhostMaster69-dev" revision="android-12.0-caf-4.9-S" />
@@ -37,5 +32,7 @@
         <project path="vendor/lawnchair" name="android_vendor_lawnchair" remote="I" revision="twelve" />-->
         <!--<remove-project name="android_vendor_cherish" />
         <project path="vendor/cherish" name="android_vendor_cherish" remote="I" revision="twelve" />-->
+        <remove-project name="platform/packages/apps/Dialer" />
+        <project path="packages/apps/Dialer" name="android_packages_dialer" remote="I" revision="test" />
 
 </manifest>
