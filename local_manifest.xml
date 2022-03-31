@@ -6,11 +6,12 @@
   <remote name="Linos" fetch="https://github.com/LineageOS" />
   <remote name="GhostMaster69-dev" fetch="https://github.com/GhostMaster69-dev" />
   <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
+  <remote name="shashank1439" fetch="https://github.com/shashank1439" />
 
   <!-- Trees -->
         <project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="I" revision="twelve-vanilla" />
         <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="Rn4" revision="staging" />
-        <project path="kernel/xiaomi/mido" name="kernel_mido" remote="I" revision="normal" />
+        <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="shashank1439" revision="r11oc" />
 
   <!-- Wlan -->
         <remove-project name="android_hardware_qcom_wlan" />
