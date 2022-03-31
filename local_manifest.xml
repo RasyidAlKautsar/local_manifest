@@ -5,13 +5,13 @@
   <remote name="Rn4" fetch="https://github.com/Redmi-note-4x" />
   <remote name="Linos" fetch="https://github.com/LineageOS" />
   <remote name="GhostMaster69-dev" fetch="https://github.com/GhostMaster69-dev" />
-  <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
+  <!--<remote name="kdrag0n" fetch="https://github.com/kdrag0n" />-->
   <remote name="shashank1439" fetch="https://github.com/shashank1439" />
 
   <!-- Trees -->
-        <project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="I" revision="twelve-vanilla" />
+        <project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="I" revision="twelve" />
         <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="Rn4" revision="staging" />
-        <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="shashank1439" revision="r11oc" />
+        <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="shashank1439" revision="r11" />
 
   <!-- Wlan -->
         <remove-project name="android_hardware_qcom_wlan" />
@@ -23,6 +23,6 @@
         <project path="external/tinyxml" name="tinyxml" remote="Rn4" revision="11" />
         <remove-project name="android_device_qcom_sepolicy" />
         <project path="device/qcom/sepolicy-legacy-um" name="legacy-um" remote="I" revision="twelve" />
-        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" clone-depth="1" revision="master" />
+        <!--<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" clone-depth="1" revision="master" />-->
 
 </manifest>
