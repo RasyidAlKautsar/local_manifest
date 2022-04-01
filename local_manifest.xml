@@ -24,7 +24,5 @@
         <remove-project name="android_device_qcom_sepolicy" />
         <project path="device/qcom/sepolicy-legacy-um" name="legacy-um" remote="I" revision="twelve" />
         <!--<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" clone-depth="1" revision="master" />-->
-        <remove-project path="platform/external/chromium-webview" />
-        <project path="external/chromium-webview" name="android_external_chromium-webview" remote="Linos" clone-depth="1" revision="master" />
 
 </manifest>
