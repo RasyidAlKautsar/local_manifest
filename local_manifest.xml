@@ -5,14 +5,10 @@
   <remote name="Rn4" fetch="https://github.com/Redmi-note-4x" />
   <remote name="Linos" fetch="https://github.com/LineageOS" />
   <remote name="GhostMaster69-dev" fetch="https://github.com/GhostMaster69-dev" />
-  <!--<remote name="kdrag0n" fetch="https://github.com/kdrag0n" />-->
-  <remote name="shashank1439" fetch="https://github.com/shashank1439" />
-  <remote name="awaken" fetch="https://github.com/Project-Awaken" />
-  <remote name="octavi" fetch="https://github.com/Octavi-OS" />
 
   <!-- Trees -->
         <project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="I" revision="twelve" />
-        <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="Rn4" revision="staging" />
+        <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="Rn4" revision="lineage-19.1" />
         <project path="kernel/xiaomi/mido" name="kernel_xiaomi_msm8953-4.9" remote="I" revision="lineage-17.1" />
 
   <!-- Wlan -->
@@ -25,12 +21,5 @@
         <project path="external/tinyxml" name="tinyxml" remote="Rn4" revision="11" />
         <remove-project name="android_device_qcom_sepolicy" />
         <project path="device/qcom/sepolicy-legacy-um" name="legacy-um" remote="I" revision="twelve" />
-        <remove-project name="platform/packages/apps/Gallery2" />
-        <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="Linos" revision="lineage-19.1" />
-        <remove-project name="android_packages_apps_Dialer" />
-        <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="awaken" revision="12.1" />
-        <remove-project name="platform/packages/apps/DeskClock" />
-        <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" remote="octavi" revision="12" />
-        <project path="packages/apps/ExactCalculator" name="platform_packages_apps_ExactCalculator" remote="octavi" revision="12" />
 
 </manifest>
