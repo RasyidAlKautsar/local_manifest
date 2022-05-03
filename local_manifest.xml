@@ -21,5 +21,7 @@
         <project path="external/tinyxml" name="tinyxml" remote="Rn4" revision="11" />
         <remove-project name="android_device_qcom_sepolicy" />
         <project path="device/qcom/sepolicy-legacy-um" name="legacy-um" remote="I" revision="twelve" />
+        <remove-project name="android_device_cherish_sepolicy" />
+        <project path="device/cherish/sepolicy" name="android_device_cherish_sepolicy" revision="twelve" remote="I" />
 
 </manifest>
