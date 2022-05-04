@@ -2,13 +2,13 @@
 <manifest>
 
   <remote name="I" fetch="https://github.com/RasyidAlKautsar" />
-  <remote name="Rn4" fetch="https://github.com/Redmi-note-4x" />
+  <remote name="zilong" fetch="https://github.com/zeelog" />
   <remote name="Linos" fetch="https://github.com/LineageOS" />
   <remote name="GhostMaster69-dev" fetch="https://github.com/GhostMaster69-dev" />
 
   <!-- Trees -->
-        <project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="I" revision="twelve-bak" />
-        <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="Rn4" revision="lineage-19.1" />
+        <project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="I" revision="awaken" />
+        <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="zilong" revision="lineage-19.1" />
         <project path="kernel/xiaomi/mido" name="kernel_xiaomi_msm8953-4.9" remote="I" revision="lineage-17.1" />
 
   <!-- Wlan -->
@@ -16,12 +16,9 @@
         <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="GhostMaster69-dev" revision="android-12.0-caf-4.9-S" />
 
   <!-- Addon -->
-        <remove-project name="android_packages_resources_devicesettings" />
+        <remove-project name="LineageOS/android_packages_resources_devicesettings" />
         <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="Linos" revision="lineage-18.1" />
-        <project path="external/tinyxml" name="tinyxml" remote="Rn4" revision="11" />
         <remove-project name="android_device_qcom_sepolicy" />
-        <project path="device/qcom/sepolicy-legacy-um" name="legacy-um" remote="I" revision="twelve" />
-        <remove-project name="android_device_cherish_sepolicy" />
-        <project path="device/cherish/sepolicy" name="android_device_cherish_sepolicy" revision="twelve" remote="I" />
+        <project path="device/qcom/sepolicy-legacy-um" name="legacy-um" remote="I" revision="twelve-awk" />
 
 </manifest>
