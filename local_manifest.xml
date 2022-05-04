@@ -20,5 +20,7 @@
         <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="Linos" revision="lineage-18.1" />
         <remove-project name="android_device_qcom_sepolicy" />
         <project path="device/qcom/sepolicy-legacy-um" name="legacy-um" remote="I" revision="twelve-awk" />
+        <remove-project name="LineageOS/android_system_bt" />
+        <project path="system/bt" name="android_system_bt" remote="I" revision="patch-1" />
 
 </manifest>
