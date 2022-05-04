@@ -12,7 +12,7 @@
         <project path="kernel/xiaomi/mido" name="kernel_xiaomi_msm8953-4.9" remote="I" revision="lineage-17.1" />
 
   <!-- Wlan -->
-        <remove-project name="android_hardware_qcom_wlan" />
+        <remove-project name="LineageOS/android_hardware_qcom_wlan" />
         <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="GhostMaster69-dev" revision="android-12.0-caf-4.9-S" />
 
   <!-- Addon -->
