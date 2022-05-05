@@ -2,7 +2,7 @@
 <manifest>
 
   <remote name="I" fetch="https://github.com/RasyidAlKautsar" />
-  <remote name="Rn4" fetch="https://github.com/Redmi-note-4x" />
+  <remote name="Rn4" fetch="https://github.com/zeelog" />
   <remote name="Linos" fetch="https://github.com/LineageOS" />
   <remote name="GhostMaster69-dev" fetch="https://github.com/GhostMaster69-dev" />
 
