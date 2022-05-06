@@ -12,15 +12,15 @@
         <project path="kernel/xiaomi/mido" name="kernel_xiaomi_msm8953-4.9" remote="I" revision="lineage-17.1" />
 
   <!-- Wlan -->
-        <remove-project name="LineageOS/android_hardware_qcom_wlan" />
+        <remove-project name="android_hardware_qcom_wlan" />
         <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="GhostMaster69-dev" revision="android-12.0-caf-4.9-S" />
 
   <!-- Addon -->
-        <remove-project name="LineageOS/android_packages_resources_devicesettings" />
+        <remove-project name="packages_resources_devicesettings" />
         <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="Linos" revision="lineage-18.1" />
-        <remove-project name="android_device_qcom_sepolicy" />
+        <remove-project name="device_qcom_sepolicy-legacy-um" />
         <project path="device/qcom/sepolicy-legacy-um" name="legacy-um" remote="I" revision="twelve-awk" />
-        <remove-project name="LineageOS/android_system_bt" />
+        <remove-project name="system_bt" />
         <project path="system/bt" name="android_system_bt" remote="I" revision="patch-1" />
 
 </manifest>
