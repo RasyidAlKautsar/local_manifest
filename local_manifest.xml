@@ -2,7 +2,7 @@
 <manifest>
 
   <remote name="I" fetch="https://github.com/RasyidAlKautsar" />
-  <remote name="Redmi-note-4x" fetch="https://github.com/Redmi-note-4x" />
+  <remote name="zilong" fetch="https://github.com/zeelog" />
   <!--<remote name="Alone0316" fetch="https://github.com/Alone0316" />-->
   <remote name="Spark-Devices" fetch="https://github.com/Spark-Devices" />
   <remote  name="linos" fetch="https://github.com/LineageOS" />
@@ -11,8 +11,8 @@
 
   <!-- Trees -->
         <project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="Spark-Devices" revision="spark" />
-        <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="Redmi-note-4x" revision="staging" />
-        <project path="kernel/xiaomi/mido" name="kernel_mido" remote="I" revision="normal" />
+        <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="zilong" revision="lineage-19.1" />
+        <project path="kernel/xiaomi/mido" name="kernel_xiaomi_msm8953-4.9" remote="I" revision="lineage-17.1" />
 
   <!-- Wlan -->
         <remove-project name="android_hardware_qcom_wlan" />
